@@ -4,7 +4,7 @@ header {
   right: 0;
   left: 0;
   background-color: white;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 #first-container {
   overflow: auto; /*aplicamos overflow p<ra que los elementos flotante se queden dentro del contenedor padre*/
@@ -52,7 +52,6 @@ hr{
 }
 .second-container {
   overflow: auto;
-  display: inline-block;
   padding-left: 10%;
 }
 .box{
@@ -92,7 +91,15 @@ hr{
   background-color: #91769E;
 }
 #principal {
-  float: left;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 0 5%;
+  overflow: auto;
+  margin-top: 150px;
+  column-width:240px;
+}
+.image-post {
+  margin: 0px 10px 10px 0;
+}
+.image-post img {
+  max-width: 100%;
+  border-radius: 8px;
 }
