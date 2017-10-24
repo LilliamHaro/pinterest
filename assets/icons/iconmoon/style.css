@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?jez4vz');
-  src:  url('fonts/icomoon.eot?jez4vz#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?jez4vz') format('truetype'),
-    url('fonts/icomoon.woff?jez4vz') format('woff'),
-    url('fonts/icomoon.svg?jez4vz#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?tr9jqm');
+  src:  url('fonts/icomoon.eot?tr9jqm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?tr9jqm') format('truetype'),
+    url('fonts/icomoon.woff?tr9jqm') format('woff'),
+    url('fonts/icomoon.svg?tr9jqm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,14 +28,29 @@
   content: "\e900";
   color: #bd081c;
 }
+.icon-pushpin:before {
+  content: "\e946";
+}
 .icon-bubble:before {
   content: "\e96b";
 }
 .icon-user:before {
   content: "\e971";
 }
+.icon-search:before {
+  content: "\e986";
+}
 .icon-menu:before {
   content: "\e9bd";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-arrow-down:before {
+  content: "\ea36";
 }
 .icon-pinterest:before {
   content: "\ead1";
