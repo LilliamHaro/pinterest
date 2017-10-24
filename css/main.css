@@ -93,8 +93,15 @@ hr{
 #principal {
   padding: 0 5%;
   overflow: auto;
-  margin-top: 150px;
-  column-width:240px;
+  margin-top: 154px;
+  box-sizing: border-box;
+  /*column-width:25%;*/
+}
+
+.column {
+  width: 24%;
+  float: left;
+  margin-left: 1%;
 }
 .image-post {
   margin: 0px 10px 10px 0;
