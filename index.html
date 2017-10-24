@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link rel="stylesheet" href="assets/icons/iconmoon/style.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Pinterest</title>
@@ -10,7 +11,14 @@
     <header>
       <div id="first-container">
         <div class="icon-box first-icon"><span class="icon-pinterest"></span></div>
-        <div><input class="input-box" type="text" name="input"></div>
+        <div class="input-box">
+          <span class="icon-search">
+          </span><input type="text" name="input" placeholder="Javascript">
+          <span class="icon-cross"></span>
+          <strong>All Pins</strong>
+          <span class="icon-arrow-down"></span>
+
+        </div>
         <div class="icon-box"><span class="icon-user"></span></div>
         <div class="icon-box"><span class="icon-menu"></span></div>
         <div class="icon-box"><span class="icon-bubble"></span></div>
@@ -29,27 +37,87 @@
       </div>
     </header>
     <main id="principal">
-      <div class="column">
-        <div class="image-post"><img src="assets/images/pokemon-sinnoh.jpg" alt="Sinnoh">  </div>
-        <div class="image-post"><img src="assets/images/pokemon-kanto.jpg" alt="Kanto">  </div>
-        <div class="image-post"><img src="assets/images/pokemon-emerald.jpg" alt="Emerald">   </div>
-        <div class="image-post"><img src="assets/images/pokemon-leaders.jpg" alt="Initials">  </div>
-        <div class="image-post"><img src="assets/images/pokemon-rayquaza.jpg" alt="Rayquaza">  </div>
-        <div class="image-post"><img src="assets/images/pokemon-chikorita.jpg" alt="Chikorita">  </div>
-      </div>
-      <div class="column">
-        <div class="image-post"><img src="assets/images/pokemon.jpg" alt="Pokemon">  </div>
-      </div>
-      <div class="column">
-        <div class="image-post"><img src="assets/images/pokemon-ruby.jpg" alt="Ruby">  </div>
-        <div class="image-post"><img src="assets/images/pokemon-flygon.jpg" alt="Flygon">  </div>
-        <div class="image-post"><img src="assets/images/pokemon-initials.jpg" alt="Initials">  </div>
-      </div>
-      <div class="column">
-        <div class="image-post"><img src="assets/images/pokemon-dragonair.jpg" alt="dragonair">  </div>
-        <div class="image-post"><img src="assets/images/pokemon-oak-not.jpg" alt="Oak-not">  </div>
-        <div class="image-post"><img src="assets/images/pokemon-legendary.jpg" alt="Legendary">  </div>
-      </div>
+
+      <section class="column">
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-sinnoh.jpg" alt="Sinnoh">  </figure>
+          <p><strong>Gym Leaders</strong><span class="views"><span class="icon-checkmark"> 0</span><span class="icon-pushpin"> 36.6k</span></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="circle">J</div><span><strong>John McDonald</strong> <br>#sitepoint.com</span>
+        </article>
+
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-kanto.jpg" alt="Kanto">  </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-emerald.jpg" alt="Emerald">   </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-leaders.jpg" alt="Initials">  </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-rayquaza.jpg" alt="Rayquaza">  </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+      </section>
+
+      <section class="column">
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon.jpg" alt="Pokemon">  </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+      </section>
+
+      <section class="column">
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-ruby.jpg" alt="Ruby">  </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-flygon.jpg" alt="Flygon">  </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-initials.jpg" alt="Initials">  </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+
+      </section>
+      <section class="column">
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-dragonair.jpg" alt="dragonair">  </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-oak-not.jpg" alt="Oak-not">  </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+
+        <article class="post">
+          <figure class="image-post"><img src="assets/images/pokemon-legendary.jpg" alt="Legendary">  </figure>
+          <h4>Gym Leaders</h4>
+          <span class="views"><span class="icon-pushpin"><p>36.6k</p></span><span class="icon-checkmark"><p>0</p></span></span>
+        </article>
+      </section>
     </main>
 
   </body>
